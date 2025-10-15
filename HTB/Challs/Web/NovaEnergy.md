@@ -2,7 +2,7 @@
 
 - NovaEnergy is a internal web application used for file sharing system. This site can only be accessed by employee of NovaEnergy company. You're tasked to hunt for any vulnerabilities that led to any breaches in their site.
 
-![[../../../assets/Pasted image 20251015170211.png]]
+![](../../../assets/landing_NovaEnergy.png)
 - When creating an account:
     - Your email must be of the 'gonuclear.com' domain.
 	- You must verify your account via an e-mail.
@@ -153,7 +153,7 @@ redoc                   [Status: 200, Size: 910, Words: 178,
 [...] 
 ```
 
-![[../../../assets/Pasted image 20251015150627.png]]
+![](../../../assets/swagger_NovaEnergy.png)
 
 - Great! It's a **swagger** template, which allows me to see the avialable endpoints and to make requests from the UI. Here I see that there is a `/api/userDetails` endpoint. I send the request and got my **verify-token** as part of the response.
 
@@ -217,7 +217,7 @@ Connection: keep-alive
 
 - After doing this, I am able to login with the user I created and in the user dashboard we see the **flag.txt** file ready to be downloaded.
 
-![[../../../assets/Pasted image 20251015171455.png]]
+![](../../../assets/pwned_NovaENergy.png)
 
 
 writeup by varanda - 15/10/2025
