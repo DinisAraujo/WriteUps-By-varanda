@@ -103,7 +103,7 @@ namespace Helpers{
 - It's a custom implementation of the **ArrayIterator** class, that after echoing the current element of the array, calls the function in the *$callback* attribute with the current value as the argument.
 - The **current()** function (https://www.geeksforgeeks.org/php/php-arrayiterator-current-function/) is called when a **foreach** clause is present, which is the case in IceCream's __invoke(), that iterates through the *$flavors* array.
 - If I set the IceCream's *\$flavors* to a **ArrayHelpers** that has a *$callback* of 'system', and is iterating through an array of commands, I have RCE on the server. 
-- The exploit (it was a pain because of the namespaces ;():
+- The exploit (it was a pain because of the namespaces ;( ):
 
 ```php
 namespace Helpers {
